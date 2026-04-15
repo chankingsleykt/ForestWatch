@@ -3,3 +3,6 @@ pandas
 numpy
 pip
 ipykernel
+matplotlib
+seaborn
+scikit-optimize

@@ -7,3 +7,4 @@ matplotlib
 seaborn
 scikit-optimize
 xgboost
+python-dotenv

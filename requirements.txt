@@ -8,3 +8,5 @@ seaborn
 scikit-optimize
 xgboost
 python-dotenv
+earthengine-api
+geemap

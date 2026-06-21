@@ -13,3 +13,6 @@
 * Upon more research, a 30.91 x 30.91 region is about as big as an Olympic-sized swimming pool. My assumption that looking at past spectral indices could "catch deforestation in the act" is wrong because deforesters could clear that region in minutes.
 * Decision: pivot to classifying deforestation in real time. While this is essentially recreating the Hansen loss label, the Hansen dataset is static only up to 2025, while this model can be used for future years and dynamically called for specific regions. Essentially a GFW-lite
 * TODO: retrain models on unlagged data
+
+# June 21, 2026
+* Retrained the models on unlagged data. XGBoost gets 0.99 scores, so I'm thinking that it's too easy to only predict undeforested vs deforested in 2023. I'll try including pixels deforested in previous years in the 0 class and seeing how that goes.

@@ -16,3 +16,6 @@
 
 # June 21, 2026
 * Retrained the models on unlagged data. XGBoost gets 0.99 scores, so I'm thinking that it's too easy to only predict undeforested vs deforested in 2023. I'll try including pixels deforested in previous years in the 0 class and seeing how that goes.
+
+# June 24, 2026
+* Tested the model on both data in the most recent year and data from different forests. Model failed to generalize for the very different SE USA forest. The next step is to train three models on each of the three forest types.

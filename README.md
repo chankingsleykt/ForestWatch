@@ -3,8 +3,8 @@ Welcome to ForestWatch! This project predicts upcoming deforestation events by t
 
 # 📋 Stages
 - [x] Data Collection: Gather and preprocess datasets with the Earth Engine API
-- [ ] (In Progress) Model Evaluation: Compare different models and hyperparameters
-- [ ] Application Development: Deploy a web application serving predictions on current data
+- [x] Model Evaluation: Train three models on the three types of forest and evaluate out-of-sample performance
+- [ ] (In progress) Application Development: Deploy a web application serving predictions on current data
 
 # 📊 Data Sources
 - [Hansen Global Forest Change](https://developers.google.com/earth-engine/datasets/catalog/UMD_hansen_global_forest_change_2024_v1_12#dois): Forest Loss by years 2000-2024. Source of labels (was this pixel deforested in 20XX?)

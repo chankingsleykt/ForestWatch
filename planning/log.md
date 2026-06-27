@@ -18,4 +18,7 @@
 * Retrained the models on unlagged data. XGBoost gets 0.99 scores, so I'm thinking that it's too easy to only predict undeforested vs deforested in 2023. I'll try including pixels deforested in previous years in the 0 class and seeing how that goes.
 
 # June 24, 2026
-* Tested the model on both data in the most recent year and data from different forests. Model failed to generalize for the very different SE USA forest. The next step is to train three models on each of the three forest types.
+* Tested the model on both data in the most recent year and data from different forests. Model failed to generalize for the very different SE USA forest. The next step is to train three models on each of the three forest types--Tropical, Temperate, Boreal.
+
+# June 25, 2026
+* Trained three models for each of the three forest types. Models successfully predicted deforestation in the forests they were trained on, in 2025. While accuracy did decrease on new forests of the same type, f1 scores remain respectable at 0.70. Now development of the app can begin.
